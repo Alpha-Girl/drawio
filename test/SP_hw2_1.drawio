@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T06:38:51.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="DOREX0T4OmyfCF1hmAQq" version="14.6.6" type="github"><diagram name="Page-1" id="ff44883e-f642-bcb2-894b-16b3d25a3f0b">7VvLctowFP0alslYL9ssA3m0i850JouuHVuAp8ZijAikX1/ZSGBZotDgYPEgi6BrPSyde46uHvTQcLp6KaLZ5AdLaNaDXrLqoccehMAnvvhXWj7WlrBMlYZxkSYy09bwmv6h0uhJ6yJN6FzLyBnLeDrTjTHLcxpzzRYVBVvq2UYs01udRWNqGF7jKFPWe7K1/0oTPpF24Pe3D77RdDzhqoeyy29R/HtcsEUuW+xBNKo+68fTSNUluzqfRAlb1kzoqYeGBWN8/W26GtKsHF01cKoc/1Bv20ODCZ9mIgHE1+rx847C4JDConMFzXm9uV31jby3OO73kYepPyLRXd+onyZiZGUyZ7n4N4gXxTtNZIu1xuc8Krh0BuEJaEDz5KFEU6TjLJrP03htfE4zVUak6iXmvGC/6ZBlrKiaR1712TxRWJbdHrF80xq09l2NFlsUMbV3WHlnVIwpt2eRrl8ORK1aOZ4vlE0pLz5EhoJmEU/fdceMpCePN/m2aIgvEpDDwAHhus73KFvIVng1FsItmQEcpyuu41PQefoneqsylEM6Y2nOq/cjgx55FJYoS8d5iZYYQioQGLzTgqeCVw/ywTRNkrL8IIveaDbYcEUhJj2kBg30rNDscLyyPbrqWTRCvrfGMm34ZSnvHhIs2S/V604mDwZIVv6zHJ9tzXehXiskeg1sNJoLH2oCvHnFz2Hut83IfeTrgmLIGYopP9QpBhyi2HZC+gzPlD8dT7Q7794LMGpwohWmkUCvFZ2CaAbwwJypRRUihCnBWU5STl9nUeX0SxFFNfygRKxiZEUsFSMA2xTnVx+Df1jHF3k25xkJMtcdg5R//yKqgftOfEHgaSgQlV5u46lQmib1SMr7AlpaoDgzFYT7VdB3RQVVjNpQQXQ5Kqg62EK4ATbhxpGq15TSBo++RvXMBcUFEos4QyxsJ9aFsGrXHPMZVvkBtAYBxwbxBGjV4hOQDBqgWzYBThlagI5DC+xSaBGcvQKi/QqInVHAwKqA+HJCC9XBNhZYACmBUirot6OCoLnCalTxJTqIDOjRdeug39DBkHSog+TsdRDv18HQGR00yXBhSyzSog5i0NxoAq3oIGhu6Z5CBs01ALluGQQAORQPwrPXQbJfBwNndFDJRGPD/UJEUC392tlth42orZ19J0MET3GuZcLuX7cIhlDXwM14dKGB+Ow10N+vge6sic0NItfO9Y+UQRXytCGDCIcNwWonFoT9DmJB30AeX7cMBi5tDaKzl8Fgvwy6syQ2yXBhW4Nqzd+GDEKf6DIIW1HBxtWpU2iguSMcXLcGAuBQLGjeOQy7RafzezG4784UBU14Hg6QSn2s1aXN2phJ0+GCacP9H2Afe330/48cG1tMgQU0bAGteQujFdDMS4aDG2gW0BDRQfNhd6Ap/6mBNryBZjvUwg6BZt7qfLyBZlt2eTpoGHcImrkd8nQDzQJa36E5DZnnmc830GyguSSP5lHkyw00G2iNkB+BDkEzj06+3UCzLdQ2Ky4XJjVzc+v7DTUbahtufb1AiuT2h7rrnazt76HR018=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-25T06:49:02.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" etag="Nd6v6c2io0I0vWAPkLQ7" version="14.6.6" type="github">
+  <diagram name="Page-1" id="ff44883e-f642-bcb2-894b-16b3d25a3f0b">
+    <mxGraphModel dx="1958" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="f0bcc99304e6f5a-9" style="edgeStyle=none;curved=1;html=1;startSize=10;endArrow=classic;endFill=1;endSize=10;strokeColor=#000000;strokeWidth=2;fontSize=12;" parent="1" source="f0bcc99304e6f5a-1" target="f0bcc99304e6f5a-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0bcc99304e6f5a-18" value="外部有人刷卡" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=20;" parent="f0bcc99304e6f5a-9" vertex="1" connectable="0">
+          <mxGeometry x="0.2545" y="-5" relative="1" as="geometry">
+            <mxPoint x="15" y="-80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0bcc99304e6f5a-1" target="f0bcc99304e6f5a-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0bcc99304e6f5a-1" value="关闭" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeColor=#666666;strokeWidth=4;fontSize=30;align=center;fillColor=#f5f5f5;" parent="1" vertex="1">
+          <mxGeometry x="160" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f0bcc99304e6f5a-2" value="向内开启" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeColor=#666666;strokeWidth=1;fontSize=30;align=center;fillColor=#f5f5f5;" parent="1" vertex="1">
+          <mxGeometry x="440" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f0bcc99304e6f5a-6" value="向外开启" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=1;strokeColor=#666666;strokeWidth=1;fontSize=30;align=center;fillColor=#f5f5f5;" parent="1" vertex="1">
+          <mxGeometry x="700" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-3" value="" style="curved=1;endArrow=classic;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="f0bcc99304e6f5a-2" target="f0bcc99304e6f5a-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="880" as="sourcePoint" />
+            <mxPoint x="910" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="970" />
+              <mxPoint x="550" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-4" value="外部有人刷卡/&lt;br&gt;光电门检测到有人通过" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=20;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="1020" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-6" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0bcc99304e6f5a-2" target="f0bcc99304e6f5a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="820" as="sourcePoint" />
+            <mxPoint x="910" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="840" />
+              <mxPoint x="230" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-7" value="外部无人刷卡&amp;amp;&lt;br&gt;光电门未检测到有人通过" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=20;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-8" value="外部无人刷卡&amp;amp;&lt;br&gt;内侧光电门检测到有人通过" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=20;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-9" value="外部有人刷卡/&lt;br&gt;光电门检测到有人通过" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=20;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="950" y="620" as="geometry">
+            <mxPoint x="-1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-10" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0bcc99304e6f5a-6" target="f0bcc99304e6f5a-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="800" as="sourcePoint" />
+            <mxPoint x="910" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="670" />
+              <mxPoint x="840" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-11" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f0bcc99304e6f5a-6" target="f0bcc99304e6f5a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="800" as="sourcePoint" />
+            <mxPoint x="910" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="450" />
+              <mxPoint x="310" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yqy9mh1KjiBxQAWJfqem-12" value="外部无人刷卡&amp;amp;&lt;br&gt;光电门未检测到有人通过" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fontSize=20;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
