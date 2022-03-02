@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-02T01:46:46.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="c13MoS37bw6sqYJtADAe" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-02T03:13:30.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.56" etag="bcQqsMQ5s9nmhqm4xxto" version="16.6.4" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1093" dy="609" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1093" dy="645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,6 +121,99 @@
         </mxCell>
         <mxCell id="VkdnRBsGZV-YbRyVGyZj-36" value="设备1-1笔记本" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=23;" vertex="1" parent="1">
           <mxGeometry x="397" y="556" width="158" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-38" value="用户/工程师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="799" y="937" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-41" value="服务端&lt;br&gt;（核心控制器）" style="strokeColor=#666666;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.general.server_1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="896" width="73" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-42" value="互联网访问" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VkdnRBsGZV-YbRyVGyZj-41" target="VkdnRBsGZV-YbRyVGyZj-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="1024" as="sourcePoint" />
+            <mxPoint x="763" y="914" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-45" value="客户端&lt;br&gt;（边缘控制器）" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/domain_controller.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="952" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-47" value="设备（工业控制器）&lt;br&gt;（放有待备份的文件）" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.gateways_controllers.aruba_7220_mobility_controller_front;" vertex="1" parent="1">
+          <mxGeometry x="106" y="979" width="142" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VkdnRBsGZV-YbRyVGyZj-45" target="VkdnRBsGZV-YbRyVGyZj-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="1024" as="sourcePoint" />
+            <mxPoint x="463" y="974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-51" value="网线连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="VkdnRBsGZV-YbRyVGyZj-50">
+          <mxGeometry x="0.1474" y="4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VkdnRBsGZV-YbRyVGyZj-47" target="VkdnRBsGZV-YbRyVGyZj-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="1024" as="sourcePoint" />
+            <mxPoint x="463" y="974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-56" value="网线连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VkdnRBsGZV-YbRyVGyZj-55">
+          <mxGeometry x="0.1604" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-59" value="设备（工业控制器）&lt;br&gt;（放有待备份的文件）" style="html=1;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shadow=0;dashed=0;shape=mxgraph.rack.hpe_aruba.gateways_controllers.aruba_7220_mobility_controller_front;" vertex="1" parent="1">
+          <mxGeometry x="299" y="1731" width="142" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-60" value="用户/工程师" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="688" y="1703" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-61" value="工程师的笔记本" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.laptop;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="534" y="1716" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-62" value="网线连接" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1" source="VkdnRBsGZV-YbRyVGyZj-59" target="VkdnRBsGZV-YbRyVGyZj-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="696" y="1626" as="sourcePoint" />
+            <mxPoint x="746" y="1576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-63" value="&lt;b style=&quot;line-height: 2.3&quot;&gt;&lt;font style=&quot;font-size: 23px&quot;&gt;传统解决方案流程图&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1638" width="217" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-64" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;1.工程师携带笔记本到工业流水线上，&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;将笔记本与需要备份的设备通过网线&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;进行连接（物理连接）。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;2.工程师打开工业软件，配置并实现笔记本&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;与设备之间的网络连接。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;3.工程师打开备份文件，保存至笔记本。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;4.工程师断开笔记本与设备间的网络连接。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;5.断开物理连接，完成备份工作。&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="307" y="1808" width="274" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-65" value="主要问题：&lt;br&gt;1.每次备份需要大量人工，下次备份还需要重新连接，配置&lt;br&gt;2.一次只能备份一台设备&lt;br&gt;3.备份过程需要大量鼠标、键盘操作，难以通过一般的程序实现" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="627" y="1808" width="221" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-66" value="1.用户将设备，客户端，服务端进行物理连接（网线）。&lt;br&gt;2(1).用户通过网页添加并配置设备（设备的IP地址，型号，&lt;br&gt;所属的边缘控制器等信息）。&lt;br&gt;3(1).用户通过网页添加并配置备份任务（例，设备A上的&lt;br&gt;程序X在每天2:00进行一次备份）。" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1061" width="374" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-67" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2(2).服务端接收用户通过网页发送的设备&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;信息，&lt;/span&gt;&lt;span&gt;保存至服务端的数据库。（设备管&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;理&lt;/span&gt;&lt;span&gt;系统）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3(2).服务端接收用户通过网页发送的备份&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;任务信息，保存至服务端的数据库。（任&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;务&lt;/span&gt;&lt;span&gt;管理系统）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4(1).时间满足备份任务触发条件（如2:00)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;服务端向设备A所属的客户端发送任务信息&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;（备份设备A的程序X）。&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="464" y="1079" width="272" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-68" value="4(2).客户端接收服务端发送的&lt;br&gt;信息。&lt;br&gt;&lt;font color=&quot;#ff0303&quot;&gt;机器人流程自动化系统开始运行&lt;/font&gt;&lt;br&gt;5.机器人流程自动化系统（以下&lt;br&gt;简称RPA）模拟键盘及鼠标（以&lt;br&gt;下简称键鼠）打开工业软件，实&lt;br&gt;现客户端与设备的网络连接。&lt;br&gt;6.RPA模拟键鼠操作打开备份文&lt;br&gt;件，保存至客户端。&lt;br&gt;7.RPA模拟键鼠操作断开客户端&lt;br&gt;与设备间的网络连接。&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 3 , 3)&quot;&gt;机器人流程自动化系统结束运行&lt;/span&gt;&lt;br&gt;8(1).客户端将备份的文件，及任务&lt;br&gt;完成情况发送给服务端。" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="242" y="1175" width="220" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-69" value="8(2).服务端接收文件及任务完成情况，分别&lt;br&gt;保存到文件存储系统（存储系统）及数据库。&lt;br&gt;9(2).服务端从数据库获取任务完成情况并返&lt;br&gt;回给用户。&lt;br&gt;10(2).从文件存储系统找到对应的文件发送&lt;br&gt;给用户。" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1380" width="290" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-70" value="9(1).用户通过网页查看任务完成情况。（向服务端发送查&lt;br&gt;询请求）&lt;br&gt;10(2).用户根据需求下载已备份的文件。（向服务端发送&lt;br&gt;下载请求）&lt;br&gt;11.接收服务端发送的文件。" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="734" y="1413" width="360" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-71" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;主要创新点：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1.繁琐的键鼠操作，通过机器人流程自动化的模拟键鼠实现，减少了人工的重复劳动。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.仅需配置一次设备，配置一次任务，即可实现定期定时自动备份。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3.工程师不再需要亲自到工业现场直接与设备接触，可以在办公室远程备份。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;4.一台服务端连接多台客户端，一台客户端连接多个设备。工程师可以同时批量化备份多个，不同位置的设备。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="745" y="1164" width="275" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-72" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="161" y="1045" as="sourcePoint" />
+            <mxPoint x="161" y="1469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VkdnRBsGZV-YbRyVGyZj-73" value="Timeline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="VkdnRBsGZV-YbRyVGyZj-72">
+          <mxGeometry x="0.1226" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
