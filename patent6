@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T06:46:04.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="4msSEigvjySGlX0cU32R" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T06:47:43.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="uILX4x59ftB6rLw7juQf" version="17.1.0" type="github">
   <diagram id="aRSzJuV5w2m00tH8XYCy" name="Page-1">
     <mxGraphModel dx="644" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="BBaMhsxr-FopgfB_dihz-12" value="RPA打开工业设备固件编程软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="266" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-14" target="BBaMhsxr-FopgfB_dihz-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BBaMhsxr-FopgfB_dihz-14" value="RPA打开备份工业设备固件对应的程序文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="266" y="291" width="99" height="50" as="geometry" />
