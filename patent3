@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T00:45:14.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="9URuGon7RdqcnwdZuTgf" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T00:46:09.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="-JVhz4ycXg8dlClTEiTt" version="17.1.0" type="github">
   <diagram id="MU8WG3ronKgK1JAVKbfs" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,6 +23,17 @@
         </mxCell>
         <mxCell id="6u-wR2vJdAE2sGn9q_xx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6u-wR2vJdAE2sGn9q_xx-6" target="6u-wR2vJdAE2sGn9q_xx-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u-wR2vJdAE2sGn9q_xx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6u-wR2vJdAE2sGn9q_xx-6" target="6u-wR2vJdAE2sGn9q_xx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6u-wR2vJdAE2sGn9q_xx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6u-wR2vJdAE2sGn9q_xx-6" target="6u-wR2vJdAE2sGn9q_xx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="258" />
+              <mxPoint x="508" y="258" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6u-wR2vJdAE2sGn9q_xx-6" value="核心控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="301" y="190" width="77" height="48" as="geometry" />
