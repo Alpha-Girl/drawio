@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T06:38:49.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" version="17.1.0" etag="3-mC_eOB_g4gEcrsgvpT" type="github"><diagram id="aRSzJuV5w2m00tH8XYCy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-11T06:46:04.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="4msSEigvjySGlX0cU32R" version="17.1.0" type="github">
+  <diagram id="aRSzJuV5w2m00tH8XYCy" name="Page-1">
+    <mxGraphModel dx="644" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BBaMhsxr-FopgfB_dihz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-2" target="BBaMhsxr-FopgfB_dihz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-2" value="管理端发送工业设备固件备份任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-4" target="BBaMhsxr-FopgfB_dihz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-4" value="核心控制器接收工业设备固件备份任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-6" target="BBaMhsxr-FopgfB_dihz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-6" value="满足触发条件，核心控制器下发任务信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-8" target="BBaMhsxr-FopgfB_dihz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-8" value="边缘控制器接收任务信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-10" target="BBaMhsxr-FopgfB_dihz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-10" value="边缘控制器启动&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%A0%B8%E5%BF%83%E6%8E%A7%E5%88%B6%E5%99%A8%E4%B8%8B%E5%8F%91%E4%BB%BB%E5%8A%A1%E4%BF%A1%E6%81%AF%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22124%22%20y%3D%22291%22%20width%3D%2299%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;RPA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-12" target="BBaMhsxr-FopgfB_dihz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-12" value="RPA打开工业设备固件编程软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-14" value="RPA打开备份工业设备固件对应的程序文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-16" target="BBaMhsxr-FopgfB_dihz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-16" value="RPA建立工业设备固件与工业设备固件的连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-18" target="BBaMhsxr-FopgfB_dihz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-18" value="RPA保存待备份的程序文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-20" target="BBaMhsxr-FopgfB_dihz-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-20" value="RPA对程序文件进行重命名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-22" target="BBaMhsxr-FopgfB_dihz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-22" value="RPA检测程序文件是否已被正确保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-23" target="BBaMhsxr-FopgfB_dihz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-23" value="RPA断开工业设备编程软件与工业设备固件的连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-25" target="BBaMhsxr-FopgfB_dihz-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-25" value="RPA关闭工业设备固件编程软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-27" target="BBaMhsxr-FopgfB_dihz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-27" value="边缘控制器返回任务信息及任务完成情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-29" target="BBaMhsxr-FopgfB_dihz-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-29" value="核心控制器接收任务信息及任务完成情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BBaMhsxr-FopgfB_dihz-30" target="BBaMhsxr-FopgfB_dihz-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-30" value="核心控制器更新任务详情并通知管理端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BBaMhsxr-FopgfB_dihz-35" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;管理端接收任务完成情况通知&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="687" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
