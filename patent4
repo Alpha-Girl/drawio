@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T06:11:53.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" version="17.1.0" etag="VexBF-dB7KanuMpSnSTv" type="github"><diagram id="pCRE3IIJdmVVvqZpSbHU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-11T06:26:04.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36" etag="1X-orWynLqgqrhO-dCv7" version="17.1.0" type="github">
+  <diagram id="pCRE3IIJdmVVvqZpSbHU" name="Page-1">
+    <mxGraphModel dx="592" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-1" target="5GHGobPIlbi4tKfX3-yL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-1" value="管理端发送配置&lt;br&gt;工业设备固件请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-2" target="5GHGobPIlbi4tKfX3-yL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-2" value="核心控制器接收配置工业设备固件请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-3" target="5GHGobPIlbi4tKfX3-yL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-3" value="核心控制器下发任务信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-4" target="5GHGobPIlbi4tKfX3-yL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-4" value="边缘控制器接收任务信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-5" target="5GHGobPIlbi4tKfX3-yL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-5" value="边缘控制器启动&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%A0%B8%E5%BF%83%E6%8E%A7%E5%88%B6%E5%99%A8%E4%B8%8B%E5%8F%91%E4%BB%BB%E5%8A%A1%E4%BF%A1%E6%81%AF%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22124%22%20y%3D%22291%22%20width%3D%2299%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;br&gt;RPA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-6" target="5GHGobPIlbi4tKfX3-yL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-6" value="RPA打开工业设备固件编程软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-7" target="5GHGobPIlbi4tKfX3-yL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-7" value="RPA执行工业设备固件的配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-8" target="5GHGobPIlbi4tKfX3-yL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-8" value="RPA关闭工业设备固件编程软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-9" target="5GHGobPIlbi4tKfX3-yL-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-9" value="边缘控制器返回任务信息及任务完成情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="139" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-10" target="5GHGobPIlbi4tKfX3-yL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-10" value="核心控制器接收任务信息及任务完成情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="215" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5GHGobPIlbi4tKfX3-yL-12" target="5GHGobPIlbi4tKfX3-yL-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-12" value="核心控制器更新任务详情并通知管理端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="291" width="99" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5GHGobPIlbi4tKfX3-yL-13" value="管理端接收任务完成情况通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="367" width="99" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
