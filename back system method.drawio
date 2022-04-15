@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T01:13:53.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" version="17.4.3" etag="1L91Hwz-QIHdqqC57Sro" type="github"><diagram id="rT42NgMEpcLt9m1svWUq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-15T07:06:03.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" etag="bs28K29CNeFF9XOUqjff" version="17.4.3" type="github">
+  <diagram id="rT42NgMEpcLt9m1svWUq" name="Page-1">
+    <mxGraphModel dx="1147" dy="579" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UAadTk7J29lsvzpQnXPn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-1" target="UAadTk7J29lsvzpQnXPn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-1" value="&lt;b&gt;通讯模块&lt;br&gt;&lt;br&gt;获取任务信息并解析&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="3" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-2" target="UAadTk7J29lsvzpQnXPn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-2" value="&lt;b&gt;工业设备固件&lt;br&gt;编程软件启动模块&lt;br&gt;&lt;br&gt;启动工业设备固件编程软件&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="109" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-3" target="UAadTk7J29lsvzpQnXPn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-3" value="&lt;b&gt;备份文件导入模块&lt;br&gt;&lt;br&gt;搜索备份文件&lt;br&gt;用工业设备固件编程软件打开&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-4" target="UAadTk7J29lsvzpQnXPn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-4" value="&lt;b&gt;工业设备固件&lt;br&gt;连接模块&lt;br&gt;&lt;br&gt;与工业设备固件建立网络连接&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="321" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-5" target="UAadTk7J29lsvzpQnXPn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-5" value="&lt;b&gt;备份固件下载模块&lt;br&gt;&lt;br&gt;通过工业设备固件&lt;br&gt;编程软件下载固件并保存&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="321" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-12" target="UAadTk7J29lsvzpQnXPn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-12" value="&lt;b&gt;工业设备固件&lt;br&gt;连接模块&lt;br&gt;&lt;br&gt;与工业设备固件断开网络连接&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="215" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UAadTk7J29lsvzpQnXPn-13" target="UAadTk7J29lsvzpQnXPn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-13" value="&lt;b&gt;工业设备固件&lt;br&gt;编程软件关闭模块&lt;br&gt;&lt;br&gt;关闭工业设备固件编程软件&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="109" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAadTk7J29lsvzpQnXPn-16" value="&lt;b&gt;通讯模块&lt;br&gt;&lt;br&gt;通知任务完成情况&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="3" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
